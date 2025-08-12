@@ -5,7 +5,7 @@ import { useState } from "react";
 export default function () {
   const [password, Setpassword] = useState<string>("");
   const [ispassword, Setispassword] = useState<boolean>(false);
-
+  
   return (
     <>
       <div className="flex flex-col items-center min-h-screen relative">
@@ -30,7 +30,7 @@ export default function () {
                 type="text"
                 name="email"
                 placeholder="example@gmail.com"
-                className="input input-bordered w-full"
+                className="w-full"
               />
             </div>
 
